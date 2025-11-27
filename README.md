@@ -379,7 +379,7 @@ df.head()
 * Feature Engineering
 * Sampling of data
 * Train Random Forest
-* Save and download the Random Forest Model
+* Saves and downloads the Random Forest Model to the local system
 
 ### 2. `Gradient_Boosting_Complete.ipynb`
 
@@ -387,7 +387,7 @@ df.head()
 * Feature Engineering
 * Sampling of data
 * Train Gradient Boosting model
-* Save and download the Gradient Boosting model
+* Saves and downloads the Gradient Boosting model to the local system
 
 ### 3. `XG_Boost_Complete.ipynb`
 
@@ -395,11 +395,11 @@ df.head()
 * Feature Engineering
 * Sampling of data
 * Train XG Boost model
-* Save and download the XG Boost model
+* Saves and downloads the XG Boost model to the local system
 
 ---
 
-## Step 11: Move the Exported Model to the Project Repository
+## Step 11: Move the Downloaded Model to the cloned Project Repository in VS Code
 
 After downloading the trained model file (e.g., `random_forest_model.pkl`) from Google Colab:
 
