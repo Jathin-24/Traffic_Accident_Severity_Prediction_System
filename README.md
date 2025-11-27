@@ -473,7 +473,7 @@ If you want to load a specific model for prediction replace the model name in ap
 
 ---
 
-## 🚀 How to Use the Accident Severity Prediction System
+## 🚀 How to Use the Accident Severity Prediction System ?
 
 Once the Streamlit application is running and accessible via the provided URL:
 
@@ -507,6 +507,8 @@ This project is for educational and demonstrative use, focusing on the applicati
 
 ## 🙏 Acknowledgments
 
+- Internship Host: Flipkart Pvt Ltd
+- Project Mentor: Sana Srinadh 
 - Dataset: [US Accidents from Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
 ## Contact
