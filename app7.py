@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model_and_encoders():
     try:
-        model = joblib.load('random_forest_model.pkl')
+        model = joblib.load('./models/random_forest_model.pkl')
         
         # Create label encoders with the actual unique values from training
         source_encoder = LabelEncoder()
