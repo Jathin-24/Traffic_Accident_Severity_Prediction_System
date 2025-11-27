@@ -508,7 +508,7 @@ This project is for educational and demonstrative use, focusing on the applicati
 ## 🙏 Acknowledgments
 
 - Internship Host: Flipkart Pvt Ltd
-- Project Mentor: Sana Srinadh 
+- Project Mentor: Sana Srinadh (Data Science & Machine Learning Domain)
 - Dataset: [US Accidents from Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
 ## Contact
