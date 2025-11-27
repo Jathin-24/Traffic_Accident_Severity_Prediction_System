@@ -191,7 +191,7 @@ Before you begin, make sure you have the following tools installed on your syste
 
 ---
 
-### Step 1: Install Prerequisites
+## Step 1: Install Prerequisites
 
 #### 1.1 Install Git
 
@@ -221,7 +221,7 @@ pip --version
 
 ---
 
-### Step 2: Clone the Repository
+## Step 2: Clone the Repository
 
 ```bash
 git clone https://github.com/Jathin-24/Traffic_Accident_Severity_Prediction_System.git
@@ -230,7 +230,7 @@ cd Traffic_Accident_Severity_Prediction_System
 
 ---
 
-### Step 3: Create Python Virtual Environment
+## Step 3: Create Python Virtual Environment
 
 #### Using `venv`:
 
@@ -243,7 +243,7 @@ environ\Scripts\activate
 
 ---
 
-### Step 4: Install Dependencies
+## Step 4: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -251,7 +251,7 @@ pip install -r requirements.txt
 
 ---
 
-### Step 5: Open Project in VS Code
+## Step 5: Open Project in VS Code
 
 ```bash
 code .
@@ -261,12 +261,13 @@ If `code` command doesn't work:
 
 1. Open VS Code manually.
 2. Go to `File > Open Folder`.
-3. Select the cloned `Employee_Attrition_Prediction` folder.
+3. Select the cloned `Traffic_Accident_Severity_Prediction_System` folder.
 
 ---
+# NOTE
+We are considering that the user is not having enough computation power for processing 7.7 million rows in the dataset so we will use google colab for the model development
 
-
-# Step 6: Download the Dataset
+## Step 6: Download the Dataset
 
 This project uses the **US Accidents Dataset** from Kaggle.
 
@@ -281,7 +282,7 @@ This project uses the **US Accidents Dataset** from Kaggle.
 
 ---
 
-# Step 7: Upload the Dataset to Google Drive
+## Step 7: Upload the Dataset to Google Drive
 
 To ensure the notebooks run smoothly in Google Colab, upload the dataset to Google Drive.
 
@@ -311,7 +312,7 @@ MyDrive/dataset/US_Accidents_*.csv
 
 ---
 
-# Step 8: Open the Notebooks in Google Colab
+## Step 8: Open the Notebooks in Google Colab
 
 ### 8.1 Notebook Files
 
@@ -344,7 +345,7 @@ This project provides several Jupyter notebooks:
 
 ---
 
-# Step 9: Mount Google Drive in Colab
+## Step 9: Mount Google Drive in Colab
 
 Before loading the dataset, mount Google Drive inside your notebook:
 
@@ -370,7 +371,7 @@ df.head()
 
 ---
 
-# Step 10: Run the Notebooks
+## Step 10: Run the Notebooks
 
 ### 1. `Random_Forest_Complete (1).ipynb`
 
@@ -398,7 +399,7 @@ df.head()
 
 ---
 
-# Step 11: Move the Exported Model to the Project Repository
+## Step 11: Move the Exported Model to the Project Repository
 
 After downloading the trained model file (e.g., `random_forest_model.pkl`) from Google Colab:
 
@@ -417,7 +418,7 @@ Traffic_Accident_Severity_Prediction_System/models/
 
 ---
 
-# Step 12: Run the Streamlit Application
+## Step 12: Run the Streamlit Application
 
 Once the trained model has been moved into the `models/` directory, you can run the Streamlit application locally.
 
@@ -466,7 +467,7 @@ Once the app starts, Streamlit will open automatically in your browser (or will 
 
 ---
 
-### 13. Prediction using various models
+## 13. Prediction using various models
 
 If you want to load a specific model for prediction replace the model name in app7.py with specific model file name (*.pkl)
 
