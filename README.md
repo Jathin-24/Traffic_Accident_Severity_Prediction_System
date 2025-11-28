@@ -75,8 +75,7 @@ Data Source:
 ## 🧰 Tech Stack
 
 - Python, Pandas, NumPy, Matplotlib, Seaborn
-- scikit-learn (RandomForestClassifier, LabelEncoder, StandardScaler)
-- imblearn (SMOTE)
+- scikit-learn (RandomForestClassifier, LabelEncoder)
 - Joblib (for model serialization)
 - Streamlit (for dashboard)
 
